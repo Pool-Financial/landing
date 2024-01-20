@@ -54,13 +54,15 @@
   </head>
 
   <body class="flex w-screen h-screen items-center justify-center">
-    <div class="flex flex-col max-w-[1250px] p-4 py-8 md:px-8 w-full h-full">
+    <div
+      class="flex flex-col gap-8 max-w-[1250px] px-4 py-8 md:py-16 md:px-8 w-full h-full"
+    >
       <div
-        class="header h-1/5 flex flex-col gap-4 md:flex-row w-full items-center"
+        class="header max-h-1/6 h-auto flex flex-col gap-4 md:flex-row w-full items-center"
       >
         <img
           src="./assets/images/logo.png"
-          class="md:w-1/4"
+          class="w-3/4 md:w-1/4"
           alt="Pool Financials logo"
         />
         <div
@@ -70,7 +72,9 @@
         </div>
       </div>
 
-      <div class="h-4/5 flex flex-col gap-8 w-full items-center justify-center">
+      <div
+        class="h-5/6 grow flex flex-col gap-8 w-full items-center justify-center"
+      >
         <div class="flex gap-2 text-5xl md:text-6xl font-medium items-center">
           <h1 class="text-white">Hello</h1>
           <h1 class="text-white opacity-50">banking</h1>
